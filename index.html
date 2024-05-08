@@ -88,30 +88,34 @@
                                 </style>
 								    
 
-             <!-- Your portfolio article -->
-        <header class="major">
-        <h2><a href="#">Markov Chains (Page-Rank) <br /> - An Airline Industry Problem  </a></h2>
-              </header>
-           <!-- Add GitHub link to the image -->
-              <a href="https://github.com/kangwaa/Markov-Chain-Page-Rank-Analysis" class="image fit"><img  src="https://www.mckinsey.com/~/media/mckinsey/industries/travel%20logistics%20and%20infrastructure/our%20insights/understanding%20the%20pandemics%20impact%20on%20the%20aviation%20value%20chain/thumb-gettyimages-470310911.jpg" alt="" title="Source: https://utilityanalytics.com/2019/09/ais-action-and-impact-on-the-energy-sector/"  /></a>
-               <p>This project is a deep dive into a practical application of Markov Chains and the famous PageRank algorithm by Google within the domain of airline operations. By conceptualizing an airline's network of destinations as a graph, with airports serving as nodes and direct-flight connections as edges, the project aims to rank airports(nodes) in the network in terms of flight and passenger traffic patterns and revenue generated between each flight route using Markov chains, thereby unlocking hidden patterns not captured by descriptive statistics.  
+<!-- Your portfolio article -->
+<article class="post featured">
+    <header class="major">
+        <h2><a href="#">Markov Chains (Page-Rank) <br /> - An Airline Industry Problem</a></h2>
+    </header>
+    <!-- Add GitHub link to the image -->
+    <a href="https://github.com/kangwaa/Markov-Chain-Page-Rank-Analysis" class="image fit">
+        <img src="https://www.mckinsey.com/~/media/mckinsey/industries/travel%20logistics%20and%20infrastructure/our%20insights/understanding%20the%20pandemics%20impact%20on%20the%20aviation%20value%20chain/thumb-gettyimages-470310911.jpg" alt="" title="Source: https://utilityanalytics.com/2019/09/ais-action-and-impact-on-the-energy-sector/" />
+    </a>
+    <p>This project is a deep dive into a practical application of Markov Chains and the famous PageRank algorithm by Google within the domain of airline operations. By conceptualizing an airline's network of destinations as a graph, with airports serving as nodes and direct-flight connections as edges, the project aims to rank airports(nodes) in the network in terms of flight and passenger traffic patterns and revenue generated between each flight route using Markov chains, thereby unlocking hidden patterns not captured by descriptive statistics.</p>
+    <!-- Add small space between paragraphs -->
+    <p style="margin-top: 10px;"></p>
+    <p>In the linked notebook on Github, I start off with exploratory data analysis (EDA) of an airline database with more than 5 tables using SQL and Pandas, focusing on computing various metrics such as the number of flights, passengers, and revenue between each of the different routes and preparing the data in a graph format necessary for applying PageRank algorithm , I then used SciPy to convert the data into a sparse matrix to optimise for efficiency in handling large datasets.  As you’ll see in greater detail in the notebook the whole idea of PageRank is about  finding the most important airports in an airline network. To determine this importance, I assign weights to each airport based on factors like revenue, passenger numbers, and flight demand. Then, using techniques from linear algebra, probability theory, and tools like Numpy,  I calculated the long-term probabilities associated with each rank. I also compared methods of ranking based on descriptive statistics (historical data) and that generated from the Markov Chain / PageRank algorithm.</p>
+    <!-- Skills box -->
+    <div class="skills-box">
+        <!-- Add skills here -->
+        <div class="skill sqlite">SQLite</div>
+        <div class="skill pandas">Pandas</div>
+        <div class="skill numpy">NumPy</div>
+        <div class="skill scipy">SciPy</div>
+        <div class="skill matplotlib">Matplotlib</div>
+    </div>
+    <!-- Only keep GitHub link -->
+    <ul class="actions special">
+        <li><a href="https://github.com/kangwaa/Markov-Chain-Page-Rank-Analysis" class="button large">GitHub Repository</a></li>
+    </ul>
+</article>
 
-In the linked notebook on Github, I start off with exploratory data analysis (EDA) of an airline database with more than 5 tables using SQL and Pandas, focusing on computing various metrics such as the number of flights, passengers, and revenue between each of the different routes and preparing the data in a graph format necessary for applying PageRank algorithm , I then used SciPy to convert the data into a sparse matrix to optimise for efficiency in handling large datasets.  As you’ll see in greater detail in the notebook the whole idea of PageRank is about  finding the most important airports in an airline network. To determine this importance, I assign weights to each airport based on factors like revenue, passenger numbers, and flight demand. Then, using techniques from linear algebra, probability theory, and tools like Numpy,  I calculated the long-term probabilities associated with each rank. I also compared methods of ranking based on descriptive statistics (historical data) and that generated from the Markov Chain / PageRank algorithm. </p>
-               <!-- Skills box -->
-              <div class="skills-box">
-               <!-- Add skills here -->
-                <div class="skill sqlite">SQLite</div>
-                <div class="skill pandas">Pandas</div>
-                 <div class="skill numpy">NumPy</div>
-                <div class="skill scipy">SciPy</div>
-                <div class="skill matplotlib">Matplotlib</div>
-                                   
-                                         </div>
-                   <!-- Only keep GitHub link -->
-                <ul class="actions special">
-                  <li><a href="https://github.com/kangwaa/Markov-Chain-Page-Rank-Analysis" class="button large">GitHub Repository</a></li>
-                      </ul>
-                  </article>
 
 		<!-- Posts -->
 	        <section class="posts">
